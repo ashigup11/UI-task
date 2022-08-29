@@ -1,0 +1,75 @@
+<div class="button-slider">
+            <div class="button-slider-icons">
+              <div id="spinner">
+                <img
+                src="https://www.significatocanzoni.it/wp-content/uploads/2013/03/maroon5_daylight_single_cover-1.jpg"
+                />
+              </div>
+              <div id="loading"><img
+                id="pause"
+                src="https://cdn-icons-png.flaticon.com/512/16/16427.png"
+                alt=""
+              /></div>
+              <div class="progress-bar">
+                <div>Daylight</div>
+                <div>Maroon 5</div>
+              </div>
+              <div id="tick">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/4315/4315445.png"
+                  alt=""
+                />
+              </div>
+              <div id="cross">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/1828/1828843.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="music">
+            <div class="music-img">
+              <img
+                src="https://www.significatocanzoni.it/wp-content/uploads/2013/03/maroon5_daylight_single_cover-1.jpg"
+                alt=""
+              />
+            </div>
+            <div class="music-one">
+              <div class="pause-progress">
+                <div> <img
+                    id="pause"
+                    src="https://cdn-icons-png.flaticon.com/512/16/16427.png"
+                    alt=""
+                  />
+                </div>
+               
+                <div id="music-name">
+                  <div>Daylight</div>
+                  <div>Maroon 5</div>
+                </div>
+
+                <div id="shuffle"><img
+                    
+                    src="https://cdn-icons-png.flaticon.com/512/3168/3168015.png"
+                    alt=""
+                  /></div>
+                <div>
+                    <img
+                    id="loop"
+                    src="https://cdn-icons-png.flaticon.com/512/625/625072.png"
+                    alt=""
+                  /></div>
+                
+              </div>
+              <div>
+                <progress id="progress-bar" value="66" max="100"></progress>
+                <img
+                  id="loop"
+                  src="https://cdn-icons-png.flaticon.com/512/625/625072.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>

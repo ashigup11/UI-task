@@ -1,0 +1,54 @@
+body{
+   
+    /* background: linear-gradient(to right, rgb(60, 184, 241), rgb(197, 52, 237)),
+    linear-gradient(to bottom, rgb(60, 184, 241), rgb(17, 3, 20)); */
+
+    background: 
+    radial-gradient(ellipse at left top,  #618cb7, transparent),
+     radial-gradient(ellipse at right top, #652b92, transparent),
+     linear-gradient(to top, #652b92, transparent);
+    
+     
+    min-height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+.partition{
+    display: flex;
+    margin-top: 2%;
+}
+
+.container{
+    width: 80%;
+    margin-left: 10%;
+}
+.navbar{
+    background-color: #2b2937;
+    margin: 1% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around 10px;
+    border-radius: 7px;
+}
+.navbar div {
+    margin: auto 1% ;
+    color: rgb(143, 147, 151);
+}
+.navbar img{
+    height:2em;
+    margin: 1% 1%;
+}
+.vr{
+    border-left: 1px solid rgb(102, 101, 104);
+    margin-left: 4px;
+    height: 30px;
+}
+#portfolio{
+    color: aliceblue;
+}
+
+.col-two{
+    width: 30%;
+    border: 1px solid green;
+}
+

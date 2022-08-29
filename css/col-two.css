@@ -1,0 +1,356 @@
+.col-two{
+    margin-left: 10%;
+}
+.card-header img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 2px solid rgb(0, 19, 128);
+}
+
+
+.card-body{
+    background-color: #2b2937;
+    padding-bottom: 10%;
+}
+.img-details{
+    display: flex;
+    align-items: center;
+
+}
+.info-img img{
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    border: 2px solid white;
+}
+
+.info-details{
+  margin-right: 30%;
+  margin-top: 10%;
+width: 100%;
+}
+.info-description{
+   text-align: center;
+   margin-top: 10%;
+   
+   color: #787787;
+}
+.card-footer{
+    background-color: #3f3c5b;
+    display: flex;
+    justify-content: space-around;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.card-footer img{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    width: 10%;
+}
+.followers{
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.followers > div{
+    color: aliceblue;
+}
+.followers hr{
+    height:2px;
+    border-width:0;
+    background-color:gray;
+}
+.info-details-name{
+    font-size: 2em;
+    color: aliceblue;
+}
+.info-details-profession{
+font-size: 1.5em;
+color: rgb(236, 195, 143);
+}
+
+.welcome{
+    background-color: #efecf5;
+    margin-top: 10%;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(19, 176, 32);
+}
+.welcome-text{
+    color: #644d90;
+    font-size: 2em;
+    margin-top: 10%;
+    
+}
+.icon{
+    height:1em;
+    width: 1em;
+}
+.username{
+  
+    background-color: #ffffff;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+}
+.username-icon{
+    margin: auto;
+    margin-right: 0%;
+}
+.username-input{
+    margin: auto;
+    margin-left: 0%;
+}
+.username-input input{
+   border: none;
+   height: 30px;
+}
+.username-sep{
+    border-left: 1px solid rgb(102, 101, 104);
+    margin: auto;
+    margin-left: 7%;
+    margin-right: 7%;
+    height: 50%;
+}
+#signIn button{
+    background-color: #89a4ff;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+#forget-password{
+   
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: center;
+    color: gray;
+    font-size: small;
+}
+.navigation{
+    width: 85%;
+    display: flex;
+    margin-top: 15%;
+    justify-content: space-around;
+    
+}
+.navigation div{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+.navigation div {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navigation-left-arrow{
+    background-color: #af80d0;
+    color: white;
+}
+#navigation-1{
+    background-color: #fcffff;
+    color: #b2a3c0;
+   
+}
+#navigation-2{
+    background-color: #b36cea;
+    color: aliceblue;
+   
+}
+#navigation-3{
+    background-color: #6d339a;
+    color: #b2a3c0;
+    
+}
+#navigation-4{
+    background-color: #fffffc;
+    color: #b2a3c0;
+    
+}
+#navigation-right-arrow{
+    background-color: #a683c5;
+    color: aliceblue;
+   
+}
+
+.toggle-switch{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+
+}
+
+#switch-1{
+    width: 100px;
+    height: 35px;
+    background-color: #3c2050;
+    display: flex;
+    border-radius: 50px;
+    margin-right: 5%;
+}
+#switch-1 .circle-1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 7px solid white;
+    margin: auto;
+    margin-left: 4%;
+background-color: #e0807c;
+}
+#switch-1 .circle-2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 7px solid white;
+    margin: auto;
+    margin-right: 4%;
+background-color: #95b94d;
+}
+
+#previous-bar{
+    display: flex;
+    height: 30px;
+    width: 150px;
+    background-color: #af63f1;
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    clip-path: polygon(0% 0%, 75% 0%, 90% 50%, 75% 100%, 0% 100%);
+}
+.jon{
+    background-color: #fdfdfd;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.jon-header{
+   
+    display: flex;
+    color: gray;
+    
+    margin-top: 10%;
+}
+.jon-header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 2%;
+   margin-left: 2%;
+}
+.jon-header-name{
+    width: 50%;
+    text-align: left;
+    margin-left: 3%;
+    margin-top: 3.75%;
+    
+}
+#jon-header-time{
+    margin-top: 4.5%;
+}
+
+.jon-body{
+    margin-left: 3%;
+    padding: 3%;
+    color: rgb(97, 97, 97);
+}   
+
+.jon-footer{
+    background-color: #f2ecf6;
+    display: flex;
+    padding: 1%;
+    color: #928ba2;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  
+}
+#jon-comment{
+    border: none;
+    border-left: 1px solid #2b2937;
+    padding-left: 3%;
+    margin-left: 3%;
+    
+}
+
+.calender {
+    display: flex;
+    flex-direction: column;
+    background-color: #2B133D;
+    width: 100%;
+    height: 22rem;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+.month {
+    background-color: #3B224C;
+    display: flex;
+    height: 3rem;
+    border-radius: 10px 10px 0 0;
+}
+.date-and-month {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    color: white;
+    height: 3rem;
+    align-items: center;
+}
+.add-calender-event {
+    display: flex;
+    align-items: center;
+    color: #F1F0F2;
+    margin-left: 25%;
+}
+.left-arrow, .right-arrow {
+    color: #795C8E;
+}
+.days {
+    background-color: #462C58;
+    font-size: 0.7rem;
+    color: #6A527B;
+    display: grid;
+    grid-template-columns: repeat(7, 3rem);
+    grid-template-rows: 3rem;
+    padding: 0 0.5rem;
+}
+.day {
+    background-color: #462C58;
+    font-size: 0.7rem;
+    color: #6A527B;
+}
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7, 3rem);
+    grid-template-rows: repeat(5, 3rem);
+    color: #F0EFF1;
+    padding: 0 0.5rem;
+}
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one, .two, .three, .four {
+    color: #70617C;
+}
+.ten{
+    background-color: #55468a;
+    border-radius: 5px;
+}
