@@ -101,6 +101,7 @@ color: rgb(236, 195, 143);
 .username-icon{
     margin: auto;
     margin-right: 0%;
+    margin-left: 3%;
 }
 .username-input{
     margin: auto;
@@ -109,6 +110,7 @@ color: rgb(236, 195, 143);
 .username-input input{
    border: none;
    height: 30px;
+   width: 90%;
 }
 .username-sep{
     border-left: 1px solid rgb(102, 101, 104);
@@ -289,11 +291,12 @@ background-color: #95b94d;
     
 }
 
+
+
 .calender {
     display: flex;
     flex-direction: column;
     background-color: #2B133D;
-    width: 100%;
     height: 22rem;
     margin-top: 10%;
     border-radius: 10px;
@@ -326,9 +329,9 @@ background-color: #95b94d;
     font-size: 0.7rem;
     color: #6A527B;
     display: grid;
-    grid-template-columns: repeat(7, 3rem);
+    grid-template-columns: repeat(7, 13.2%);
     grid-template-rows: 3rem;
-    padding: 0 0.5rem;
+    width: 100%;
 }
 .day {
     background-color: #462C58;
@@ -337,7 +340,7 @@ background-color: #95b94d;
 }
 .dates {
     display: grid;
-    grid-template-columns: repeat(7, 3rem);
+    grid-template-columns: repeat(7, 13.2%);
     grid-template-rows: repeat(5, 3rem);
     color: #F0EFF1;
     padding: 0 0.5rem;
